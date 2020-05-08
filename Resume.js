@@ -27,8 +27,8 @@ function displayPosition(jobTitle,companyName,description) {
     console.log("* " + jobTitle + " at " + companyName + " - " + description);
 }
 displayPosition("Math, Chemisty, Physics, Biology, and English tutor","Some School","Tutored students in those areas.");
-displayPosition("Undergraduate Teaching Assistant"," University of Georgia"," Helped grade assignments,awnser question, held lab hours, and held office hours for Java and C++ Computer Science classes.");
-displayPosition("Lead Programmer for iBeacon Experiment"," Georgia Museum of Art"," Created native iOS virtual tour guide that used iBeacon technology to triangulate position within the museum and give information about a piece.");
+displayPosition("Undergraduate Teaching Assistant","University of Georgia"," Helped grade assignments,awnser question, held lab hours, and held office hours for Java and C++ Computer Science classes.");
+displayPosition("Lead Programmer for iBeacon Experiment","Georgia Museum of Art"," Created native iOS virtual tour guide that used iBeacon technology to triangulate position within the museum and give information about a piece.");
 console.log("\n \n");
 
 function displaySkill(skillName,value) {
